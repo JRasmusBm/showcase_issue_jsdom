@@ -15,7 +15,10 @@ I created the script `index.test.js`.
 
 ### Expected result
 
-The test should pass.
+The test should not throw an error. It should either succeed, or fail saying
+because `rgb(0, 128, 0) !== "green"`. See the following
+[jsbin](https://jsbin.com/baxezaf/1/edit?html,console,output) for an example
+of how it works in the browser.
 
 ### Actual result
 
