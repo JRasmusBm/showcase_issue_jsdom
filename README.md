@@ -2,7 +2,7 @@
 
 I am attempting to create a back-end for a service that helps users learn to
 use basic web technologies. I want to use test expressions defined as strings
-to check whether or not the exercise passed.
+to check whether or not the exercise passed. I have opened an [issue](https://github.com/jsdom/jsdom/issues/2481) on the jsdom repository.
 
 Conform
 [this article](https://github.com/jsdom/jsdom/wiki/Don't-stuff-jsdom-globals-onto-the-Node-global)
