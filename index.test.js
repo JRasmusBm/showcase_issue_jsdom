@@ -15,8 +15,11 @@ describe("test", () => {
   it("should get the correct color", () => {
     expect(
       hasPassedExercise({
-        tests: `window.getComputedStyle(
-         window.document.getElementsByTagName("h1")
+        // tests: `window.getComputedStyle(
+        //  window.document.getElementsByTagName("h1")
+       // )["color"] === "green"`,
+        tests: `getComputedStyle(
+         document.getElementsByTagName("h1")
        )["color"] === "green"`,
         progress: {
           javascript: "",
